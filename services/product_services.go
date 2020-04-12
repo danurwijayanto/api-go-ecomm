@@ -1,8 +1,8 @@
 package services
 
 import (
-	"../entity"
-	"../repository"
+	"github.com/danurwijayanto/api-go-ecomm/entity"
+	"github.com/danurwijayanto/api-go-ecomm/repository"
 )
 
 // ProductServices :

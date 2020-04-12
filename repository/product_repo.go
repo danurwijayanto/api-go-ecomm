@@ -1,8 +1,6 @@
 package repository
 
-import (
-	"../entity"
-)
+import "github.com/danurwijayanto/api-go-ecomm/entity"
 
 // ProductRepository : Interface for product like CRUD
 type ProductRepository interface {

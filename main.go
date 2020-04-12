@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"./controller"
-	router "./http"
+	"github.com/danurwijayanto/api-go-ecomm/controller"
+	"github.com/danurwijayanto/api-go-ecomm/router"
 )
 
 var (

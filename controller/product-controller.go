@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"../entity"
-	"../services"
+	"github.com/danurwijayanto/api-go-ecomm/entity"
+	"github.com/danurwijayanto/api-go-ecomm/services"
 )
 
 type productController struct{}

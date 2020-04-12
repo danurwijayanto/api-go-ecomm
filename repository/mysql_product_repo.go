@@ -3,8 +3,8 @@ package repository
 import (
 	"fmt"
 
-	"../config"
-	"../entity"
+	"github.com/danurwijayanto/api-go-ecomm/config"
+	"github.com/danurwijayanto/api-go-ecomm/entity"
 )
 
 type mysqlRepository struct{}
