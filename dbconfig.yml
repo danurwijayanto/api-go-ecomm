@@ -1,0 +1,5 @@
+development:
+    dialect: mysql
+    datasource: root:@tcp(localhost:3306)/pulsa_ecomm?parseTime=true
+    dir: migrations-mysql
+    table: go-migrations

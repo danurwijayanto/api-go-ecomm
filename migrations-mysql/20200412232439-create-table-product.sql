@@ -1,0 +1,13 @@
+
+-- +migrate Up
+CREATE TABLE IF NOT EXISTS product(
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+)
+ENGINE = InnoDB;
+
+SHOW WARNINGS;
+
+-- +migrate Down
+
+DROP TABLE IF EXIST product;
